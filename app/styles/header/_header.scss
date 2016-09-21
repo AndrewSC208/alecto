@@ -1,4 +1,5 @@
 section#header {
+	// global header styles:
 	color: #fff;
 	background-image: url('https://res.cloudinary.com/drkmakxkk/image/upload/v1474458217/header-bg_beddcl.jpg');
 	background-repeat: no-repeat;
@@ -22,6 +23,44 @@ section#header {
 	// change link colors:
 	a {
 		color: rgba(255, 255, 255, 1);	
+	}
+}
+
+.text-slider {
+	// slider styles:
+	//border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.slides {
+		position: relative;
+
+	}
+
+	.prev {
+		position: absolute;
+		right: 70%;
+		top: 10%;
+	}
+
+	.next  {
+		position: absolute;
+		left: 70%;
+		top: 10%;
+	}
+
+	.tracker-bullets {
+		position: absolute;
+		top: 17%;
+	}
+	
+	.slide {
+		display: none;
+	}
+
+	.display-slide {
+		display: inline;
 	}
 }
 

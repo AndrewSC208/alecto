@@ -4,6 +4,7 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+@import "_globalTheme.scss";
 @import "header/_header.scss";
 
 /* Extra small devices (phones, less than 768px) */
@@ -19,30 +20,3 @@ $icon-font-path: '../fonts/';
 // @media (min-width: @screen-lg-min) { ... }
 
 
-// THIS IS WHERE I WILL KEEP ALL MY GLOBAL STYLES:
-.btn-white-outline {
-  color: #fff;
-  background-color: rgba(255,255,255, .0);
-  border: 2px solid #fff;
-  border-radius: 25px;
-  padding: 6px 35px;
-
-  &:hover {
-    background-color: rgba(255,255,255, .20);
-    border: 2px solid #fff;
-    color: #fff;
-    transition: background-color .4s;
-
-  }
-
-  &:active, &:focus {
-    background-color: rgba(255,255,255, .40);
-    border: 2px solid #fff;
-    outline: 0 !important;
-    color: #fff;
-  }
-}
-
-.ligten-text {
-  font-weight: lighter;
-}
