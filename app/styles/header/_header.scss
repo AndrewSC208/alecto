@@ -1,0 +1,27 @@
+section#header {
+	color: #fff;
+	background-image: url('https://res.cloudinary.com/drkmakxkk/image/upload/v1474458217/header-bg_beddcl.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 950px;
+
+	.navbar-default {
+		background-color: rgba(255, 255, 255, .0);;
+		border-color:     rgba(255, 255, 255, .0);
+	}
+		
+	.navbar-default .navbar-brand {
+		color: rgba(255, 255, 255, 1);
+	}
+
+	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+		color: rgba(255, 255, 255, 1);
+	}
+
+	// change link colors:
+	a {
+		color: rgba(255, 255, 255, 1);	
+	}
+}
+
